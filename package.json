@@ -1,0 +1,37 @@
+{
+  "name": "neutrino-middleware-sass",
+  "version": "1.0.0",
+  "description": "Neutrino middleware for importing and loading sass from modules",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "ava": "ava",
+    "test": "npm run lint && npm run ava"
+  },
+  "keywords": [
+    "neutrino",
+    "neutrino-middleware",
+    "style",
+    "css",
+    "stylesheet",
+    "sass"
+  ],
+  "author": "Oleg Gaidarenko <markelog@gmail.com>",
+  "license": "MIT",
+  "repository": "markelog/neutrino-middleware-sass",
+  "homepage": "https://github.com/markelog/neutrino-middleware-sass",
+  "bugs": "https://github.com/markelog/neutrino-middleware-sass/issues",
+  "dependencies": {
+    "sass-loader": "6.0.6",
+    "node-sass": "^4.5.3"
+  },
+  "peerDependencies": {
+    "neutrino": "^6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "eslint": "^3.15.0",
+    "eslint-config-sexy": "^2.0.0",
+    "neutrino": "^6.1.4"
+  }
+}
