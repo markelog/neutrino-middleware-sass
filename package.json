@@ -1,6 +1,6 @@
 {
   "name": "neutrino-middleware-sass",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Neutrino middleware for importing and loading sass from modules",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
     "neutrino",
     "neutrino-middleware",
     "style",
-    "css",
     "stylesheet",
     "sass"
   ],
